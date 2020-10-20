@@ -1,21 +1,19 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
 
 const BlogPage = () => {
     return (
-        <div>
-            <Header />
+        <Layout>
             <h1>Blog</h1>
             <p>
                 Posts will show up here later on .
             </p>
             <p>Find me on <Link to="https://singlebucks.blogspot.com/">Blogger</Link></p>
-            <Footer />
-        </div>
+        </Layout>
     )
+
 }
 
 export default BlogPage
